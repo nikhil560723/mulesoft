@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="mastanFlow" doc:id="bab13094-41e7-45c7-aee4-cc890dce4015" >
+		<http:listener doc:name="Listener" doc:id="c0300f14-edf6-4f85-8dcf-6553a3b89f72" />
+		<logger level="INFO" doc:name="Logger" doc:id="3439b423-2c84-4165-a428-f2d66a088e05" />
+	</flow>
+</mule>
